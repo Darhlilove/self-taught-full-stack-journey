@@ -1,22 +1,31 @@
-This is my journey to full-stack software development, after two unsuccessfully attempts in the past. This time it is going to be a self-taught path, following the guide created by Abdel Altarazi (link: https://github.com/aaltarazi98/fullstack-guide-2022).
+# My Full-Stack Development Journey
 
-A summary of the path is as follows:
+Welcome to my personal journey towards becoming a full-stack software developer! After two unsuccessful attempts in the past, I am embarking on a self-taught path this time. I’m following the comprehensive guide created by [Abdel Altarazi](https://github.com/aaltarazi98/fullstack-guide-2022).
 
-- CSS & HTML
-- JavaScript
-- Git & GitHub
-- Build a project with Git, vanilla CSS, HTML, and JS
-- Node.js & NPM
-- React.js
-- TypeScript
-- Build a project with React.js in TypeScript
-- Express.js
-- MongoDB & PostgreSQL
-- Build a full-stack project with either MERN or PERN (or BOTH)
-- Bonus material, and projects with bonus material
-- Build my portfolio & resume
-- LC & Sending out Applications
+## Learning Path
 
-All support and guidance are welcome.
+Here’s a summary of the topics I will be covering:
 
-Wish me success!
+- **CSS & HTML**
+- **JavaScript**
+- **Git & GitHub**
+- **Build a Project**: Using Git, vanilla CSS, HTML, and JS
+- **Node.js & NPM**
+- **React.js**
+- **TypeScript**
+- **Build a Project**: Using React.js with TypeScript
+- **Express.js**
+- **MongoDB & PostgreSQL**
+- **Build a Full-Stack Project**: Using either MERN or PERN (or both)
+- **Bonus Material**: Additional resources and projects
+- **Build My Portfolio & Resume**
+- **LeetCode & Job Applications**
+
+## Support and Contributions
+
+All support and guidance are welcome. If you have any advice, resources, or just want to connect, please feel free to reach out!
+
+## Wish Me Success!
+
+Thank you for visiting my repository. I am excited about this journey and looking forward to learning and growing through it. Wish me success!
+
