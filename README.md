@@ -27,7 +27,7 @@ All support and guidance are welcome. If you have any advice, resources, or just
 
 ## License
 
-All code in this project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+All code in this project is licensed under the [MIT License](https://github.com/Darhlilove/self-taught-full-stack-journey/blob/48126029fd4c69aaeab34dec4591e02266d0c366/LICENSE.txt).
 
 ## Wish Me Success!
 
