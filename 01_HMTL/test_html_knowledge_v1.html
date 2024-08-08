@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Trial Website</title>
+    <style type="text/css">
+        #main-header{
+            text-align: center;
+            background-color: rgb(1, 31, 75);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: white;
+            padding: 10px;
+        }
+
+        #main-footer{
+            text-align: center;
+            font-size: 12px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: normal;">
+    <header id="main-header">
+        <h1>Hay Day!</h1>
+    </header>
+    <h3>Introduction</h3>
+    <p>
+        Ready to make hay while the sunshines? Join me as we explore problems and opportunities that surround us in the world we live in today. It all begins from searching!
+    </p>
+   
+    <h3>The World Today</h3>
+    <p>
+        As we navigate the world in 2024, we find ourselves at a unique crossroads, marked by rapid technological advancements, shifting geopolitical landscapes, and profound environmental challenges. The digital age continues to transform our lives, with artificial intelligence and automation reshaping industries and everyday interactions. While these innovations promise increased efficiency and new opportunities, they also raise questions about privacy, job displacement, and the ethics of technology.
+    </p>
+
+    <h3>Global Statistics</h3>
+    <p>
+        The current global landscape is characterized by a population of about <strong>8 billion</strong>, with internet usage at <em>69%</em> of this total. Climate change has already caused a <em>1.2°C</em> increase in global temperatures since pre-industrial times, with projections suggesting a further rise to <em>1.5°C</em> by 2030. Renewable energy currently accounts for 29% of global electricity generation and is expected to grow to 35% by 2030. Meanwhile, 9.2% of the world’s population lives in extreme poverty, a figure projected to decrease to 7% with continued development efforts. Read below for details.
+    </p>
+    <table>
+        <thead>
+            <tr>
+                <th>Statistic</th>
+                <th>Value</th>
+                <th>Projection</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>World Population</td>
+                <td>Approximately 8 billion people</td>
+                <td>Expected to reach 8.5 billion by 2030</td>
+            </tr>
+            <tr>
+                <td>Internet Usage</td>
+                <td>About 5.5 billion users (69% of global population)</td>
+                <td>Projected to reach 7 billion users (75% of global population) by 2030</td>
+            </tr><tr>
+                <td>Climate Change</td>
+                <td>Global average temperatures risen by ~1.2°C since pre-industrial times</td>
+                <td>Expected to rise by 1.5°C by 2030 if current trends continue</td>
+            </tr><tr>
+                <td>Renewable Energy</td>
+                <td>29% of total global electricity generation from renewable sources</td>
+                <td>Projected to increase to 35% by 2030</td>
+            </tr><tr>
+                <td>Global Poverty</td>
+                <td>9.2% of the population live<tr>
+                    <td>World Population</td>
+                    <td>Approximately 8 billion people</td>
+                    <td>Expected to reach 8.5 billion by 2030</td>
+                </tr>
+        </tbody>
+    </table>
+    <p>
+        <strong>Source:</strong> <em>Statistics Today (fictitive)</em>
+    </p>
+
+    <h3>So What Next?</h3>
+    <p>
+        <ol>
+            <li><strong>Population Growth</strong></li>
+            <ul>
+                <li><strong>Challenge:</strong> The growing global population places increasing demand on resources, infrastructure, and services, which can strain environmental and economic systems.</li>
+                <li><strong>Opportunity:</strong> Innovations in technology, sustainable development practices, and effective resource management can address these pressures, fostering economic growth and improving quality of life.</li>
+            </ul>
+            <br>
+
+            <li><strong>Internet Usage</strong></li>
+            <ul>
+                <li><strong>Challenge:</strong> Expanding internet access raises concerns about digital inequality, privacy, and cybersecurity..</li>
+                <li><strong>Opportunity:</strong> Widespread internet access can drive economic development, enhance education, and improve global communication, bridging gaps and fostering inclusivity.</li>
+            </ul>
+            <br>
+
+            <li><strong>Climate Change</strong></li>
+            <ul>
+                <li><strong>Challenge:</strong> Rising temperatures lead to severe weather events, sea level rise, and ecosystem disruption, impacting communities and economies worldwide.</li>
+                <li><strong>Opportunity:</strong> Transitioning to renewable energy and implementing climate adaptation strategies can mitigate these effects, drive innovation, and create green jobs.</li>
+            </ul>
+            <br>
+
+            <li><strong>Renewable Energy</strong></li>
+            <ul>
+                <li><strong>Challenge:</strong> The transition to renewable energy requires significant investment, technological advancement, and overcoming existing infrastructure limitations.</li>
+                <li><strong>Opportunity:</strong> Increased renewable energy use can reduce carbon emissions, decrease dependency on fossil fuels, and promote sustainable economic growth.</li>
+            </ul>
+            <br>
+
+            <li><strong>Global Poverty</strong></li>
+            <ul>
+                <li><strong>Challenge:</strong> Persistent poverty hinders economic development, exacerbates inequality, and limits access to basic needs and opportunities.</li>
+                <li><strong>Opportunity:</strong> Ongoing development efforts, combined with effective policy measures, can reduce poverty levels, improve living standards, and create more equitable opportunities for growth.</li>
+            </ul>
+        </ol>
+    </p>
+
+    <hr>
+    <p>
+        Interested in receiving updates on similar topics? <em>Subscribe below!</em>
+    </p>
+    <form action="sign_up.php" method="post">
+        <div>
+            <label for="firstName">First name</label>
+            <input type="text" name="firstName" placeholder="Enter your first name">
+        </div>
+        <br>
+        
+        <div>
+            <label for="lastName">Last name</label>
+            <input type="text" name="lastName" placeholder="Enter your last name">
+        </div>
+        <br>
+
+        <div>
+            <label for="email">Email address</label>
+            <input type="email" name="email" placeholder="Enter your email address">
+        </div>
+        <br>
+
+        <div>
+            <label for="frequency">How often would you like to receive updates?</label>
+            <select name="frequency">
+                <option value="daily">Daily</option>
+                <option value="weekly">Weekly</option>
+                <option value="bi-weekly">Bi-Weekly</option>
+                <option value="everytime">Everytime</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label for="message">Message</label>
+            <textarea name="message" placeholder="Anything you would like us to know?"></textarea>
+        </div>
+        <br>
+
+        <input type="submit" name="submit" value="Subscribe">
+    </form>
+
+    <footer id="main-footer">
+        <p>
+            <center>
+                <a href="https://x.com" target="_blank">
+                    <img src="images/x logo.png" alt="X" width="20" height="20" style="margin: 0 10px;">
+                </a>
+                
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram logo.png" alt="Instagram" width="20" height="20" style="margin: 0 10px;">
+                </a>
+
+                <a href="https://linkedin.com" target="_blank">
+                    <img src="images/linkedIn logo.png" alt="LinkedIn" width="20" height="20" style="margin: 0 10px;">
+                </a>
+
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook logo.png" alt="Facebook" width="25" height="20" style="margin: 0 10px;">
+                </a>
+
+                <a href="https://pinterest.com" target="_blank">
+                    <img src="images/pinterest logo.png" alt="Pinterest" width="20" height="20" style="margin: 0 10px;">
+                </a>
+
+                <a href="https://youtube.com" target="_blank">
+                    <img src="images/youtube logo.png" alt="Youtube" width="25" height="20" style="margin: 0 10px;">
+                </a>
+
+                <a href="https://tiktok.com" target="_blank">
+                    <img src="images/tik-tok-logo.png" alt="X" width="20" height="22" style="margin: 0 10px;">
+                </a>
+            </center>
+        </p>
+
+        <p>
+            Copyright &copy; 2024 HayDay. All rights reserved.
+        </p>
+    </footer>
+</body>
+</html>
